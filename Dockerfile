@@ -1,4 +1,4 @@
-FROM aoepeople/sbt-alpine
+FROM java:8-jre
 
 # install sonarQube client
 COPY sonar-scanner-cli-3.1.0.1141-linux.zip /
