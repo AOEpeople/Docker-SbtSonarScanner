@@ -1,7 +1,5 @@
 FROM aoepeople/sbt-alpine
 
-RUN echo ${JAVA_HOME}
-
 # install fullsupport unzip
 RUN apk add --no-cache unzip
 
